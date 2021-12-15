@@ -1,0 +1,14 @@
+name: PaintBall
+version: '${project.version}'
+main: com.gmail.arieldeleonhernandez123.paintball.PaintBall
+api-version: 1.16
+author: Elcheems
+description: 'Paintball plugin for Minecraft'
+commands:
+  paintball:
+    usage: /paintball
+    description: 'Paintball command'
+permissions:
+  paintball.*:
+    description: 'Paintball OP permission'
+    default: op
